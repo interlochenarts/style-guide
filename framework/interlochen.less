@@ -1,0 +1,44 @@
+@import "variables";
+
+html {
+    background: @lightGray;
+}
+
+h1, h2, h3 {
+    border-bottom: 1px solid #ccc;
+}
+
+section {
+    &.main {
+        padding: @gutter/2 @gutter;
+        margin: 0 0 @gutter*2;
+    }
+}
+
+.subsection {
+    margin-left: 0.5em;
+}
+
+.main {
+    background: @lightGray;
+    box-shadow: @box-shadow;
+}
+
+.margin-bottom{
+	margin-bottom: @gutter*3;
+}
+
+.margin-bottom-sm{
+	margin-bottom: @gutter;
+}
+
+.margin-top{
+	margin-top: @gutter*3;
+}
+
+.margin-top-sm{
+	margin-top: @gutter;
+}
+
+@import "atoms";
+@import "molecules";

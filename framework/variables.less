@@ -1,0 +1,59 @@
+// ===================
+// Variables
+// ===================
+
+// Shades of Gray
+@white: #fff;
+@black: #000;
+@gray: #494746;
+@darkGray: #363433;
+@mediumGray: #ccc;
+@lightGray: #f3f3f3;
+@redGray: #968984;
+
+// Colors
+@red: #ad2237;
+@yellow: #ffd24f;
+@orange: #ec9334;
+@blue: #94c9ed;
+@green: #7cd51c;
+@darkgreen: #3E6C0C;
+@purple: #8422ad;
+@pink: #e87cd5;
+
+//BrandColorLight, BrandColorDark
+@brandColor: #1E9DC8;
+@brandColorDark: #177a9c;
+
+// Layouts
+@screen-xs-max: 768px;
+@screen-sm-max: 992px;
+@screen-md-max: 1200px;
+@gutter: 15px;
+//@borderRadius: 0px;
+
+// Fonts
+@font: "AvenirMedium","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+@altFont: "AvenirLight","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+@heavyFont: "AvenirHeavy","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+@fontSize: 14px;
+@textColor: #393939;
+
+
+// Assignments
+@color: @red; // because @brand-primary is a lot to type, possibly replace with {!BrandColor}
+@hover: darken(@color, 10%);
+@altColor: @blue;
+@altHover: darken(@altColor, 10%);
+@borderColor: @mediumGray;
+@alertColor: @altColor;
+
+// box shadows
+@box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24);
+@box-shadow-inset: inset 0 1px 1px rgba(0,0,0,0.12), inset 0 1px 1px rgba(0,0,0,0.12);
+@box-shadow-hover: 0 4px 15px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, .2);
+
+
+// transitions
+@standard-transition: all 0.3s cubic-bezier(.25,.8,.7,1);
+@fast-transition: all 0.1s cubic-bezier(.25,.8,.7,1);

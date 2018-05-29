@@ -1,29 +1,153 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Interlochen Style Guide</title>
+    <title>Interlochen Front-End Style Guide</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="../framework/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../framework/interlochen.css">
+    <link rel="stylesheet" href="../lib/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-    <header>
 
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#atoms">Atoms</a></li>
-            <li><a href="#molecules">Molecules</a></li>
-        </ul>
-    </nav>
-    <section>
-        <a name="atoms"></a><h1>Atoms</h1>
-        
-    </section>
-    <section>
-        <a name="molecules"></a><h1>Molecules</h1>
-    </section>
+<body>
+    <div class="container">
+        <div class="row">
+            <header>
+            </header>
+        </div>
+        <div class="row margin-top-sm">
+            <div class="col-xs-2 navigation">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#atoms">Atoms</a>
+                            <ul>
+                                <li>
+                                    <a href="#buttons">Buttons</a>
+                                </li>
+                                <li>
+                                    <a href="#containers">Containers</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#molecules">Molecules</a>
+                            <ul>
+                                <li>
+                                    <a href="#infoWell">Info Well</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-xs-10">
+                <section class="main">
+                    <a name="atoms"></a>
+                    <h1>Atoms</h1>
+                    <section class="subsection">
+                        <a name="buttons"></a>
+                        <h2>Buttons</h2>
+
+                        <section class="subsection">
+                            <div class="well info-well">
+                                <a name="primaryButton"></a>
+                                <header>
+                                    <h4>Primary Button</h4>
+                                </header>
+                                <p>A solid red button with white text.</p>
+                                <p>
+                                    <a class="btn btn-primary">Primary Button</a>
+                                </p>
+                                <pre>&lt;a class="btn btn-primary"&gt;Primary Button&lt;/a&gt;</pre>
+                            </div>
+
+                            <div class="well info-well">
+                                <a name="ghostButton"></a>
+                                <header>
+                                    <h4>Ghost Button</h4>
+                                </header>
+                                <p>A button with a red outline and red text. Hover state gets filled with solid red and white
+                                    text.
+                                </p>
+                                <p>
+                                    <a class="btn btn-ghost">Ghost Button</a>
+                                </p>
+                                <pre>&lt;a class="btn btn-ghost"&gt;Ghost Button&lt;/a&gt;</pre>
+                            </div>
+                        </section>
+                    </section>
+
+                    <section class="subsection">
+                        <a name="containers"></a>
+                        <h2>Containers</h2>
+
+                        <section class="subsection">
+                            <div class="well info-well">
+                                <a name="well"></a>
+                                <header>
+                                    <h4>Well</h4>
+                                </header>
+
+                                <p>An empty white box that sits on top of the gray background.</p>
+
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <div class="well gray">
+                                            <div class="well"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                </section>
+                <section class="main">
+                    <a name="molecules"></a>
+                    <h1>Molecules</h1>
+
+                    <section class="subsection">
+
+                        <div class="well info-well">
+                            <a name="infoWell"></a>
+                            <header>
+                                <h4>Info Well</h4>
+                            </header>
+
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="well gray">
+                                        <div class="well info-well">
+                                            <header class="no-margin-bottom">
+                                                <h4>
+                                                    <i class="fa fa-info-circle"></i> Info Well Header</h4>
+                                            </header>
+                                            Text in the body
+                                            <footer>
+                                                <a class="btn btn-ghost btn-normal-wrap">Footer Button</a>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <pre>&lt;div class="well info-well"&gt;
+    &lt;header class="no-margin-bottom"&gt;
+        &lt;h4&gt;Info Well Header&lt;/h4&gt;
+    &lt;/header&gt;
+    Text in the body
+    &lt;footer&gt;
+        &lt;a class="btn btn-ghost btn-normal-wrap"&gt;Footer Button&lt;/a&gt;
+    &lt;/footer&gt;
+&lt;/div&gt;</pre>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

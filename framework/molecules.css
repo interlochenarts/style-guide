@@ -1,0 +1,9 @@
+.info-well footer {
+  text-align: right;
+  font-weight: bold;
+  margin: 0 -15px 0 -15px;
+  padding: 15px 15px 0 15px;
+}
+.info-well footer .btn {
+  width: 100%;
+}

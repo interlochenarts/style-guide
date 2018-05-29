@@ -1,0 +1,89 @@
+.btn {
+    padding: 6px 12px;
+    background: none;
+    /*border-radius: @borderRadius;*/
+    box-shadow: @box-shadow;
+    transition: @standard-transition;
+  
+    &:hover {
+      box-shadow: @box-shadow-hover;
+    }
+  
+    &:active {
+      box-shadow: @box-shadow;
+    }
+  
+    &.btn-default {
+      background-color: @color;
+      border: none;
+      color: @white;
+  
+      &:hover {
+        background-color: darken(@color, 10%);
+        border: none;
+      }
+  
+      &:active {
+        background-color: @color;
+      }
+    }
+  
+  &.btn-primary {
+    background-color: @color;
+    border: none;
+    color: @white;
+
+    &:hover {
+      background-color: darken(@color, 10%);
+    }
+    &:active {
+      background-color: darken(@color, 5%);
+    }
+  }
+
+  &.btn-primary-dark {
+    background-color: darken(@color, 30%);
+    border: none;
+    color: @white;
+
+    &:hover {
+      background-color: darken(@color, 35%);
+    }
+    &:active {
+      background-color: darken(@color, 5%);
+    }
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+  }
+
+  &.btn-ghost {
+    background-color: transparent;
+    border: 2px solid @color;
+    color: @color;
+
+    &:hover {
+      background-color: @color;
+      color: @white;
+    }
+
+    &:active {
+      background-color: darken(@color, 5%);
+      border-color: darken(@color, 5%);
+      color: @white;
+    }
+  }
+}
+
+.well{
+    border: 1px solid @borderColor;
+	padding: @gutter;
+	border-radius: @gutter/10;
+    background: @white;
+
+    &.gray {
+        background: @lightGray;
+    }
+}

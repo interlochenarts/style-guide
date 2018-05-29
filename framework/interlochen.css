@@ -1,0 +1,138 @@
+html {
+  background: #f3f3f3;
+}
+h1,
+h2,
+h3 {
+  border-bottom: 1px solid #ccc;
+}
+section.main {
+  padding: 7.5px 15px;
+  margin: 0 0 30px;
+}
+.subsection {
+  margin-left: 0.5em;
+}
+.main {
+  background: #f3f3f3;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+}
+.margin-bottom {
+  margin-bottom: 45px;
+}
+.margin-bottom-sm {
+  margin-bottom: 15px;
+}
+.margin-top {
+  margin-top: 45px;
+}
+.margin-top-sm {
+  margin-top: 15px;
+}
+.btn {
+  padding: 6px 12px;
+  background: none;
+  /*border-radius: @borderRadius;*/
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.7, 1);
+}
+.btn:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.btn:active {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+}
+.btn.btn-default {
+  background-color: #ad2237;
+  border: none;
+  color: #fff;
+}
+.btn.btn-default:hover {
+  background-color: #821a29;
+  border: none;
+}
+.btn.btn-default:active {
+  background-color: #ad2237;
+}
+.btn.btn-primary {
+  background-color: #ad2237;
+  border: none;
+  color: #fff;
+}
+.btn.btn-primary:hover {
+  background-color: #821a29;
+}
+.btn.btn-primary:active {
+  background-color: #981e30;
+}
+.btn.btn-primary-dark {
+  background-color: #2d090e;
+  border: none;
+  color: #fff;
+}
+.btn.btn-primary-dark:hover {
+  background-color: #180508;
+}
+.btn.btn-primary-dark:active {
+  background-color: #981e30;
+}
+.btn:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+.btn.btn-ghost {
+  background-color: transparent;
+  border: 2px solid #ad2237;
+  color: #ad2237;
+}
+.btn.btn-ghost:hover {
+  background-color: #ad2237;
+  color: #fff;
+}
+.btn.btn-ghost:active {
+  background-color: #981e30;
+  border-color: #981e30;
+  color: #fff;
+}
+.well {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 1.5px;
+  background: #fff;
+}
+.well.gray {
+  background: #f3f3f3;
+}
+.info-well header {
+  margin: -15px -15px 15px -15px;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+@media (max-width: 768px) {
+  .info-well header {
+    padding: 8px 15px;
+  }
+}
+.info-well header h1,
+.info-well header h2,
+.info-well header h3,
+.info-well header h4,
+.info-well header h5,
+.info-well header h6 {
+  margin: 0;
+}
+.info-well header .tip {
+  position: absolute;
+  right: 7.5px;
+  top: 15px;
+}
+.info-well footer {
+  text-align: right;
+  font-weight: bold;
+  margin: 0 -15px 0 -15px;
+  padding: 15px 15px 0 15px;
+}
+.info-well footer .btn {
+  width: 100%;
+}
