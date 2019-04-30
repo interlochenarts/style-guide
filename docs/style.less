@@ -1,0 +1,50 @@
+@import "../framework/variables";
+
+html {
+  background: @lightGray;
+}
+
+h1, h2, h3 {
+  border-bottom: 1px solid #ccc;
+}
+
+
+pre {
+  background: @lightGray;
+  border: 1px solid @borderColor;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+
+section {
+  &.main {
+    padding: @gutter/2 @gutter;
+    margin: 0 0 @gutter*2;
+  }
+}
+
+.subsection {
+  margin-left: 0.5em;
+}
+
+.main {
+  background: @lightGray;
+}
+
+.shadow {
+  box-shadow: @box-shadow;
+}
+
+nav {
+  ul {
+    margin-left: 1.5rem;
+    padding-left: 0;
+
+    li {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

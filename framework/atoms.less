@@ -1,3 +1,5 @@
+@import (reference) "variables";
+
 .btn {
     padding: 6px 12px;
     background: none;
@@ -74,6 +76,35 @@
       border-color: darken(@color, 5%);
       color: @white;
     }
+  }
+
+  &.btn-breadbox {
+    &.disabled {
+      cursor: not-allowed;
+      color: @textColor;
+
+      &:hover {
+        background-color: darken(@lightGray, 10%);
+      }
+    }
+
+    &:not(.disabled) {
+      border:1px solid @red;
+      &:hover, &:active  {
+        background-color: @red;
+        color: @white;
+        border-color: darken(@red, 5%)
+      }
+    }
+
+    background-color: fade(@red, 10%);
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 1em;
+    text-align: left;
   }
 }
 

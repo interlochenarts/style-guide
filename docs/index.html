@@ -2,90 +2,172 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Interlochen Front-End Style Guide</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="interlochen.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../lib/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <header>
-            </header>
+<div class="container">
+    <div class="row">
+        <header class="col-12">
+            <h1>Interlochen Front-End Style Guide</h1>
+        </header>
+    </div>
+    <div class="row mt-3">
+        <div class="col-3 navigation">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#atoms">Atoms</a>
+                        <ul>
+                            <li>
+                                <a href="#buttons">Buttons</a>
+                                <ul>
+                                    <li><a href="#primaryButton">Primary Button</a></li>
+                                    <li><a href="#ghostButton">Ghost Button</a></li>
+                                    <li><a href="#breadboxButton">Breadbox Button</a></li>
+                                    <li><a href="#breadboxDisabled">Breadbox Disabled</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#containers">Containers</a>
+                                <ul>
+                                    <li><a href="#well">Well</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#molecules">Molecules</a>
+                        <ul>
+                            <li>
+                                <a href="#infoWell">Info Well</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <div class="row margin-top-sm">
-            <div class="col-xs-2 navigation">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#atoms">Atoms</a>
-                            <ul>
-                                <li>
-                                    <a href="#buttons">Buttons</a>
-                                </li>
-                                <li>
-                                    <a href="#containers">Containers</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#molecules">Molecules</a>
-                            <ul>
-                                <li>
-                                    <a href="#infoWell">Info Well</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="col-xs-10">
-                <section class="main">
-                    <a name="atoms"></a>
-                    <h1>Atoms</h1>
-                    <section class="subsection">
-                        <a name="buttons"></a>
-                        <h2>Buttons</h2>
-
-                        <section class="subsection">
-                            <div class="well info-well">
+        <div class="col-9">
+            <a name="atoms"></a>
+            <div class="card shadow mb-4">
+                <div class="card-header">Atoms</div>
+                <div class="card-body">
+                    <div class="card mb-4 shadow">
+                        <div class="card-header">Buttons</div>
+                        <div class="card-body">
+                            <div class="well info-well mb-4">
                                 <a name="primaryButton"></a>
                                 <header>
                                     <h4>Primary Button</h4>
                                 </header>
                                 <p>A solid red button with white text.</p>
                                 <p>
-                                    <a class="btn btn-primary">Primary Button</a>
+                                    <a class="btn btn-primary" href="javascript:void(0);">Primary Button</a>
                                 </p>
-                                <pre>&lt;a class="btn btn-primary"&gt;Primary Button&lt;/a&gt;</pre>
+                                <div class="row">
+                                    <pre class="p-3 m-3 w-100"><code>&lt;a class="btn btn-primary"&gt;Primary Button&lt;/a&gt;</code></pre>
+                                </div>
                             </div>
 
-                            <div class="well info-well">
+                            <div class="well info-well mb-4">
                                 <a name="ghostButton"></a>
                                 <header>
                                     <h4>Ghost Button</h4>
                                 </header>
-                                <p>A button with a red outline and red text. Hover state gets filled with solid red and white
-                                    text.
-                                </p>
+                                <p>A button with a red outline and red text. Hover state gets filled with solid red and
+                                    white text.</p>
                                 <p>
-                                    <a class="btn btn-ghost">Ghost Button</a>
+                                    <a href="javascript:void(0);" class="btn btn-ghost">Ghost Button</a>
                                 </p>
-                                <pre>&lt;a class="btn btn-ghost"&gt;Ghost Button&lt;/a&gt;</pre>
+                                <div class="row">
+                                    <pre class="p-3 m-3 w-100"><code>&lt;a class="btn btn-ghost"&gt;Ghost Button&lt;/a&gt;</code></pre>
+                                </div>
                             </div>
-                        </section>
-                    </section>
 
-                    <section class="subsection">
-                        <a name="containers"></a>
-                        <h2>Containers</h2>
+                            <div class="well info-well mb-4">
+                                <a name="breadbox"></a>
+                                <header>
+                                    <h4>Breadbox Button</h4>
+                                </header>
+                                <p>A large button that is displayed on the primary area in the landing page areas.</p>
+                                <a href="javascript:void(0);" class="btn btn-breadbox w-100 my-2">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h4>View Chosen Electives</h4>
+                                        </div>
+                                        <div class="col-5">
+                                            <p><i class="fa fa-check-circle" style="color: green"></i> Complete</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="row">
+                                    <pre class="p-3 m-3 w-100"><code>&lt;a href="#" class="btn btn-breadbox w-100 my-2"&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="col-7"&gt;
+            &lt;h4&gt;Breadbox Header Text&lt;/h4&gt;
+        &lt;/div&gt;
+        &lt;div class="col-5"&gt;
+            &lt;p&gt;Breadbox Body Text&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="col-12"&gt;
+            &lt;p&gt;Breadbox Footer Text&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/a&gt;</code></pre>
+                                </div>
+                            </div>
+                            <div class="well info-well mb-4">
+                                <a name="disabledBreadbox"></a>
+                                <header>
+                                    <h4>Breadbox (Disabled)</h4>
+                                </header>
+                                <p>A large text area that looks similar to a breadbox button. Used for informational
+                                    purposes.</p>
 
-                        <section class="subsection">
+                                <div class="btn btn-breadbox w-100 my-2 disabled">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h4>Select Desired Electives</h4>
+                                        </div>
+                                        <div class="col-5">
+                                            <p><i class="fa fa-minus-square" style="color: red;"></i> Unavailable</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <p>Electives are not available or are full for your program(s)</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+
+                                <pre class="p-3 m-3 w-100"><code>&lt;div class="btn btn-breadbox w-100 my-2 disabled"&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="col-7"&gt;
+            &lt;h4&gt;Breadbox Header Text&lt;/h4&gt;
+        &lt;/div&gt;
+        &lt;div class="col-5"&gt;
+            &lt;p&gt;Breadbox Body Text&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="col-12"&gt;
+            &lt;p&gt;Breadbox Footer Text&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card shadow">
+                        <div class="card-header">Containers</div>
+                        <div class="card-body">
                             <div class="well info-well">
                                 <a name="well"></a>
                                 <header>
@@ -95,45 +177,46 @@
                                 <p>An empty white box that sits on top of the gray background.</p>
 
                                 <div class="row">
-                                    <div class="col-xs-4">
+                                    <div class="col-4">
                                         <div class="well gray">
                                             <div class="well"></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </section>
-                    </section>
-                </section>
-                <section class="main">
-                    <a name="molecules"></a>
-                    <h1>Molecules</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                    <section class="subsection">
+            <div class="card shadow mb-4">
+                <a name="molecules"></a>
+                <div class="card-header">Molecules</div>
+                <div class="card-body">
+                    <div class="well info-well">
+                        <a name="infoWell"></a>
+                        <header>
+                            <h4>Info Well</h4>
+                        </header>
 
-                        <div class="well info-well">
-                            <a name="infoWell"></a>
-                            <header>
-                                <h4>Info Well</h4>
-                            </header>
-
-                            <div class="row">
-                                <div class="col-xs-4">
-                                    <div class="well gray">
-                                        <div class="well info-well">
-                                            <header class="no-margin-bottom">
-                                                <h4>
-                                                    <i class="fa fa-info-circle"></i> Info Well Header</h4>
-                                            </header>
-                                            Text in the body
-                                            <footer>
-                                                <a class="btn btn-ghost btn-normal-wrap">Footer Button</a>
-                                            </footer>
-                                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="well gray">
+                                    <div class="well info-well">
+                                        <header class="no-margin-bottom">
+                                            <h4>
+                                                <i class="fa fa-info-circle"></i> Info Well Header</h4>
+                                        </header>
+                                        Text in the body
+                                        <footer>
+                                            <a class="btn btn-ghost btn-normal-wrap">Footer Button</a>
+                                        </footer>
                                     </div>
                                 </div>
                             </div>
-                            <pre>&lt;div class="well info-well"&gt;
+                        </div>
+                        <div class="row">
+                            <pre class="p-3 m-3 w-100"><code>&lt;div class="well info-well"&gt;
     &lt;header class="no-margin-bottom"&gt;
         &lt;h4&gt;Info Well Header&lt;/h4&gt;
     &lt;/header&gt;
@@ -141,13 +224,14 @@
     &lt;footer&gt;
         &lt;a class="btn btn-ghost btn-normal-wrap"&gt;Footer Button&lt;/a&gt;
     &lt;/footer&gt;
-&lt;/div&gt;</pre>
+&lt;/div&gt;</code></pre>
                         </div>
-                    </section>
-                </section>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+</div>
 </body>
 
 </html>
