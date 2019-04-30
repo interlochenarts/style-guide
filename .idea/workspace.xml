@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49fb5b80-8f11-4dcb-b3ca-f49d5ac8af94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/style-guide.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/style.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/framework.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/framework.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/interlochen.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/interlochen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/atoms.less" beforeDir="false" afterPath="$PROJECT_DIR$/framework/atoms.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/interlochen.css" beforeDir="false" afterPath="$PROJECT_DIR$/framework/interlochen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/interlochen.less" beforeDir="false" afterPath="$PROJECT_DIR$/framework/interlochen.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/molecules.less" beforeDir="false" afterPath="$PROJECT_DIR$/framework/molecules.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/framework/variables.less" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,8 +22,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/docs/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="522">
-                  <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+                <state relative-caret-position="288">
+                  <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
                   <folding>
                     <element signature="e#2678#2682#0" expanded="true" />
                     <element signature="e#2620#2624#0" expanded="true" />
@@ -114,11 +103,6 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/docs/framework.html">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -188,11 +172,12 @@
       <find>section</find>
       <find>pre</find>
       <find>&gt;</find>
+      <find>&lt;</find>
     </findStrings>
     <replaceStrings>
       <replace>mb-4</replace>
-      <replace>&amp;lt;</replace>
       <replace>&amp;gt;</replace>
+      <replace>&amp;lt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -206,6 +191,7 @@
         <option value="$PROJECT_DIR$/framework/variables.less" />
         <option value="$PROJECT_DIR$/framework/atoms.less" />
         <option value="$PROJECT_DIR$/docs/style.less" />
+        <option value="$PROJECT_DIR$/docs/framework.html" />
         <option value="$PROJECT_DIR$/docs/index.html" />
       </list>
     </option>
@@ -283,23 +269,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556630800769</updated>
-      <workItem from="1556630802041" duration="6489000" />
+      <workItem from="1556630802041" duration="7837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6489000" />
+    <option name="totallyTimeSpent" value="7837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="2560" height="1413" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.099408284" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.099408284" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.15727699" />
-      <window_info anchor="bottom" id="Terminal" weight="0.22065727" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.22065727" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -381,9 +367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/framework.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/atoms.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="596">
@@ -405,10 +388,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/framework.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+        <state relative-caret-position="288">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding>
             <element signature="e#2678#2682#0" expanded="true" />
             <element signature="e#2620#2624#0" expanded="true" />
